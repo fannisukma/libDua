@@ -1,6 +1,6 @@
 <?php
 
-namespace fn\labhello;
+namespace libsatu\labhello;
 
 class hello{
     public function tampilHello($nama){
