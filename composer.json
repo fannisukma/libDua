@@ -1,5 +1,5 @@
 {
-    "name": "fs/labhello",
+    "name": "libsatu/labhello",
     "description": "pembuatan library sederhana",
     "type": "library",
     "license": "MIT",
@@ -10,5 +10,8 @@
         }
     ],
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"libsatu\\labhello\\" : "src/"}
+    },
     "require": {}
 }
